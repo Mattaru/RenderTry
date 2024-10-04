@@ -3,8 +3,37 @@
   <head>
     <title>Title</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <%~ it.body %>
+
+    <div id="sidebar">
+      <h2 style="text-align: center;">Settings</h2>
+      <form id="sidebarForm">
+        <label for="acceleration">Acceleration <b>ms</b>:</label>
+        <input type="number" id="acceleration" name="acceleration" value="20">
+        <label for="guessedNumber">Guessed number:</label>
+        <input type="number" id="guessedNumber" name="guessedNumber" value="2">
+        <label for="guessedName">Guessed name:</label>
+        <input type="text" id="guessedName" name="guessedName" value=" ">
+        <label for="maxIterations">Max iterations:</label>
+        <input type="number" id="maxIterations" name="maxIterations" value="3">
+        <label for="rotationSpeed">Rotation speed <b>ms</b>:</label>
+        <input type="number" id="rotationSpeed" name="rotationSpeed" value="1">
+      </form>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <button id="settings" class="settings-btn">Settings</button>
+      <h1>Welcome to the roulette.</h1>
+      <p>Enter the number of participants and get started.</p>
+
+      <%~ it.body %>
+      
+    </div>
+
+    <script src="./js/roulette.js"></script>
   </body>
-</html
+</html>
