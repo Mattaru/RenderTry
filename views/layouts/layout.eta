@@ -11,16 +11,16 @@
     <div id="sidebar">
       <h2 style="text-align: center;">Settings</h2>
       <form id="sidebarForm">
-        <label for="acceleration">Acceleration <b>ms</b>:</label>
-        <input type="number" id="acceleration" name="acceleration" value="20">
         <label for="guessedNumber">Guessed number:</label>
         <input type="number" id="guessedNumber" name="guessedNumber" value="2">
         <label for="guessedName">Guessed name:</label>
         <input type="text" id="guessedName" name="guessedName" value=" ">
-        <label for="maxIterations">Max iterations:</label>
-        <input type="number" id="maxIterations" name="maxIterations" value="3">
         <label for="rotationSpeed">Rotation speed <b>ms</b>:</label>
         <input type="number" id="rotationSpeed" name="rotationSpeed" value="1">
+        <label for="acceleration">Acceleration <b>ms</b>:</label>
+        <input type="number" id="acceleration" name="acceleration" value="20">
+        <label for="maxIterations">Max iterations:</label>
+        <input type="number" id="maxIterations" name="maxIterations" value="3">
       </form>
     </div>
 

@@ -52,10 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
         let previousIteration = 0;
         let iteration = 0;
         
-        console.log(`AC:${acceleration}
-            \nGN:${guessedNumber}
-            \nMI:${maxIterations}
-            \nRS:${rotationSpeed}\nGNm:${guessedName}`);
         clearWinner();
 
         const runRoulette = () => {

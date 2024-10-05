@@ -88,7 +88,7 @@ input {
   padding: 20px;
   margin: auto;
   text-align: center;
-  width: 400px;
+  width: 450px;
 }
 
 .form-roulette {
@@ -120,8 +120,8 @@ input {
 }
 
 .number-box {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   background-color: #f8f9fa;
   border-radius: 5px;
   display: flex;
@@ -134,8 +134,8 @@ input {
 }
 
 .side-box {
-  width: 50;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   font-size: 1.3rem;
 }
 
